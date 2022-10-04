@@ -61,3 +61,8 @@ td, th {
     border: 2px solid black;
     padding-left: 10px;
 }
+#idDemo{
+    font-family: 'Times New Roman', Times, serif;
+    color: purple;
+    border : 2px solid black;
+}
