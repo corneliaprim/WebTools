@@ -1,0 +1,12 @@
+:root {
+    --primary: #CA1551;
+    --secondary: #345995;
+    --info: #EAC435;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #bebebe;
+}
+/*does not work*/
+#page{
+background-image: url("images/bkgrd1.jpg");
+}

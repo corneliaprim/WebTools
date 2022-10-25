@@ -1,0 +1,163 @@
+header {
+  background-color: #b5c3cb;
+  border: 2px solid gray;
+  overflow: hidden;
+}
+main {
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+}
+body {
+  background-color: #eeeeee;
+  margin: 25px;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: large;
+  line-height: normal;
+}
+h1 {
+  font-family: "Georgia";
+  font-weight: 600;
+  padding: 0;
+  font-size: x-large;
+  margin: auto;
+  float: right;
+  padding-top: 11%;
+  padding-right: 10px;
+}
+h2 {
+  font-weight: 600;
+  font-size: x-large;
+  line-height: normal;
+}
+p {
+  font-size: medium;
+}
+/*Table styling*/
+table,
+td,
+th {
+  border: 1px solid gray;
+}
+td,
+th {
+  border: 1px solid #565656;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/*Navigation Styling*/
+nav {
+  background-color: #565656;
+  height: 30px;
+  padding-top: 15px;
+  text-align: left;
+  padding-left: 10px;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+/*Navigation Links*/
+/* unvisited link */
+nav a:link {
+  color: #fdf5e8;
+}
+/* visited link */
+nav a:visited {
+  color: #fdf5e8;
+}
+a:visited {
+  color: black;
+}
+/* mouse over link */
+nav a:hover {
+  color: white;
+  text-transform: uppercase;
+}
+/*All other links*/
+a:hover {
+  color: #565656;
+}
+/* selected link */
+footer,
+a:link {
+  color: black;
+}
+a:active {
+  color: #565656;
+}
+
+/*Image Styling*/
+img {
+  border-radius: 8px;
+  box-shadow: 0 0 50px #ccc;
+  margin: 20px;
+}
+/* this is to center all gallery elements and make them look nice on the page; but this is not a requirement
+for the assignment*/
+.center figure {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 5px;
+}
+.center figure img {
+  vertical-align: top;
+}
+.center figure figcaption {
+  border: 1px dotted black;
+}
+.center figure:hover figcaption:hover {
+  border: 1px dotted black;
+  background-color: black;
+  color: white;
+}
+.center img:hover {
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  box-shadow: 10px 10px 5px #888888;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+/*Footer Styling*/
+.footer {
+  background-color: #b5c3cb;
+  height: 100px;
+  text-align: left;
+  border: 2px solid gray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin:0;
+}
+/*Image in Footer Styling*/
+.float-div{
+  margin: 20px 20px 0 0;  
+  overflow: auto;
+}
+.float img {
+  float: left;
+  display: block; 
+  padding-top:10px;
+  margin:0; 
+}
+p.clear {
+  clear: both;
+}
